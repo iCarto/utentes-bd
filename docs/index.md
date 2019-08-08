@@ -1,4 +1,3 @@
-
 # Actualizar BD
 
 1. Solicitar dump del esquema utentes
@@ -6,6 +5,7 @@
 3. Construír base de datos vacía con el tag de utentes.version
 
 4. Restaurar datos del dump
+
 ```
 pg_restore -a FECHA_sixhiarautentes.backup > FECHA.sql
 # Reordenar datos para respetar las fk
