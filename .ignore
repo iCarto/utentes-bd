@@ -9,6 +9,7 @@ build/
 
 # Javascript
 node_modules/
+package-lock.json
 
 
 ## Unit test / coverage reports
@@ -24,3 +25,5 @@ node_modules/
 
 # Project
 
+
+# Ignore for Formatters and Linters
