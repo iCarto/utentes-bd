@@ -66,6 +66,5 @@ sqitch deploy "${DATABASE}"
 
 # Update utentes.version and inventario.version if needed
 
-create_db_from_template "${DATABASE}" aranorte_pre_191107
-dump_db aranorte_pre_191107
+create_db_from_template_and_dump "${DATABASE}" aranorte_pre_191107
 ```
